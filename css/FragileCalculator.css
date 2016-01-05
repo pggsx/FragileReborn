@@ -1,6 +1,52 @@
 /*FragileCalculator CSS
  *
  */
-.table{display: table;}
-.row{display: table-row;}
-.cell{display: table-cell;}
+
+.header{
+text-align: center;
+}
+
+div{
+text-align:center;
+margin: 0 auto;
+padding:10px;
+background-color: green;
+}	
+
+
+
+.calcform{
+	display: table;
+	width: auto;
+}
+
+
+div#displayArea{
+position:absolute;
+display:inline-block;
+margin: 0px auto;
+padding:10px;
+}
+
+.row_left, .row_mid, .row_right{
+display: table-cell;
+width: auto;
+}
+
+.button{
+padding:5px;
+border-radius:5px;
+width:40px;
+height:40px;
+font-size:medium;
+font-family: "Sans-serif",Arial;
+font-weight:bold;
+}
+
+.displayBox{
+margin: 0 auto;
+font-family: "Sans-serif",Arial;
+font-size:medium;
+height:50px;
+width:200px;
+}
