@@ -5,6 +5,11 @@
  *
  *
  */
+
+/*
+ * MixedFraction Constructor
+ *
+ */
 function MixedFraction(numer,denom,whole_num)
 {
 	this.numer = numer;
